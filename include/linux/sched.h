@@ -1381,7 +1381,7 @@ struct task_struct {
 	ANDROID_OEM_DATA_ARRAY(1, 32);
 
 	/* PF_IO_WORKER */
-	ANDROID_KABI_USE(1, void *pf_io_worker);
+	ANDROID_KABI_USE(5, void *pf_io_worker);
 
 	//ANDROID_KABI_RESERVE(2);
 	ANDROID_KABI_RESERVE(3);
